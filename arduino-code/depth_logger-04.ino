@@ -1,3 +1,5 @@
+// Playing around with sample code provided by Blue Robotics
+
 /**
  *  This example is targeted toward the arduino platform
  *
