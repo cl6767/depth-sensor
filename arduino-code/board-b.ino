@@ -1,3 +1,5 @@
+// This code is for board b (data logger) for the two Arduino board setup
+
 #include <SPI.h>
 #include <SD.h>
 #include <Wire.h>
