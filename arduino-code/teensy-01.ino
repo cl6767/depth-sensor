@@ -1,3 +1,5 @@
+// Code for Teensy 3.1 and Adafruit data logger setup
+
 #include <SD.h>
 #include <SPI.h>
 #include <SoftwareSerial.h>
