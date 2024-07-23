@@ -1,3 +1,5 @@
+// This code is for board a (sensor) for the two Arduino board setup
+
 #include "ping1d.h"
 #include <SPI.h>
 #include "RTClib.h"
