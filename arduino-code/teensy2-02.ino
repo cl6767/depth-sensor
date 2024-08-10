@@ -25,8 +25,8 @@ String getNextFilename() {
 }
 
 void setup() {
-    Serial1.begin(115200);  // Start the serial communication with the first Ping device
-    Serial2.begin(115200);  // Start the serial communication with the second Ping device
+    Serial1.begin(9600);  // Start the serial communication with the first Ping device
+    Serial2.begin(9600);  // Start the serial communication with the second Ping device
     Serial.begin(115200); // Start the serial communication for debugging
     pinMode(ledPin, OUTPUT);
 
@@ -127,5 +127,5 @@ void loop() {
         delay(delayInterval); // Add a delay to avoid flooding the SD card with writes
     }
 
-    delay(15 * 60 * 1000); // Wait 15 minutes before taking the next set of readings
+    delay(15*60*1000); // Wait 15 minutes before taking the next set of readings
 }
